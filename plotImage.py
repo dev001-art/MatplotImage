@@ -3,7 +3,7 @@ from PIL import Image
 import matplotlib.pyplot as plt 
 from collections import defaultdict
 
-img = Image.open('/home/dev001-art/Project/Random/qwerty.png')
+img = Image.open('path to image') # Path to image
 img = img.convert("RGB")
 
 pixdata = img.load()
